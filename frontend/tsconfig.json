@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		/* Язык и окружение */
+		"target": "ES2020",
+		"useDefineForClassFields": true,
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"types": ["vite/client"],
+
+		/* JSX */
+		"jsx": "react-jsx",
+
+		/* Разрешение модулей и файлов */
+		"allowImportingTsExtensions": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+
+		/* Генерация файлов */
+		"noEmit": true,
+		"skipLibCheck": true,
+
+		/* Строгость проверок */
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+
+		/* Пути (алиасы) — опционально */
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+	"include": ["src"]
+}

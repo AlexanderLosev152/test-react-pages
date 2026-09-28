@@ -1,0 +1,15 @@
+@use 'normalize.css';
+//@use "../node_modules/swiper/swiper-bundle.css";
+
+@use 'utils/media';
+@use 'utils/mixins';
+
+@use 'globals/reset';
+@use 'globals/vars';
+@use 'globals/container';
+@use 'globals/fonts';
+@use 'globals/typography';
+
+body {
+	font-family: var(--font-family);
+}
