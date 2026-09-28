@@ -1,2 +1,16 @@
-.header {
+.headerTop {
+	background: #f3f5f7;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.headerMain {
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr 1fr;
+	align-items: center;
+	gap: 1.25rem;
+	margin-bottom: 0.5rem;
 }

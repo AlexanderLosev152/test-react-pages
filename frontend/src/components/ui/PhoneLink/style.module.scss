@@ -1,0 +1,17 @@
+.phone {
+	display: grid;
+	justify-items: end;
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 1.375rem;
+	line-height: 1.3;
+	letter-spacing: -0.04em;
+	color: #213f74;
+	span {
+		font-family: var(--font-family);
+		font-weight: 400;
+		font-size: 0.875rem;
+		line-height: 1.3;
+		color: rgba(0, 7, 45, 0.8);
+	}
+}

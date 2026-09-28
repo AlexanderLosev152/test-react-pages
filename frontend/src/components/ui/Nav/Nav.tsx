@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import type { NavItem } from '../../../components/ui/Nav/type';
 
 import styles from './style.module.scss';
@@ -11,8 +12,8 @@ export default function Nav({ data }: NavProps) {
 		<nav>
 			<ul className={styles.menu}>
 				{data.map(({ id, links, title }) => (
-					<li key={id}>
-						<a href={links}>{title}</a>
+					<li className={styles.menuLink} key={id}>
+						<Link to={links}>{title}</Link>
 					</li>
 				))}
 			</ul>

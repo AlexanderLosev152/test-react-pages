@@ -1,0 +1,14 @@
+.search {
+	display: flex;
+	border: 1px solid #e5e9ec;
+	padding: 1rem 1.25rem;
+	border-radius: 2.875rem;
+	background: #f3f5f7;
+	padding: 1rem 1.25rem;
+	input {
+		border: none;
+		outline: none;
+		background: transparent;
+		width: 100%;
+	}
+}
