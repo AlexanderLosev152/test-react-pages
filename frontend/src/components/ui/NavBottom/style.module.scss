@@ -1,0 +1,14 @@
+@use '../../../scss/utils/mixins' as *;
+
+.navBottom {
+	display: flex;
+	li {
+		a {
+			display: block;
+			padding: 0.9375rem 2.5rem;
+			@include hover {
+				background: #c6bcb2;
+			}
+		}
+	}
+}

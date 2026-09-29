@@ -14,3 +14,14 @@
 	gap: 1.25rem;
 	margin-bottom: 0.5rem;
 }
+
+.headerBottom {
+	color: #fff;
+	background: #213f74;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 1rem;
+	}
+}
