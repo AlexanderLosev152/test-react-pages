@@ -1,5 +1,19 @@
+.hero {
+	position: relative;
+}
+
+.heroWrapper {
+	padding-top: 1vw;
+	height: 600px;
+	display: flex;
+	align-items: flex-end;
+}
+
 .heroContent {
-	// color: #fff;
+	color: #fff;
+	margin-bottom: 3.75rem;
+	position: relative;
+	z-index: 1;
 }
 
 .heroLink {
@@ -15,7 +29,6 @@
 	font-size: 3.5rem;
 	line-height: 1;
 	letter-spacing: -0.05em;
-
 	max-width: 39.4375rem;
 }
 
